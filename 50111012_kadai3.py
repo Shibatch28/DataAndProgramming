@@ -21,7 +21,21 @@ def read_survey_data():
     return q1_data, q2_data, q3_data
 
 def check_survey_data(dictionary, data):
-    print(a)
+    # 出現回数をカウントする辞書配列
+    result_dict = {}
 
+    # dictionaryに含まれる各価に対して，data配列内の出現回数をカウント
+    for key in dictionary:
+        result_dict[key] = np.count_nonzero(data == key)
 
-print(q1_data[0])
+    return result_dict
+
+# データの読み込み
+q1, q2, q3 = read_survey_data()
+
+# 結果の取得
+survey_dict_q1 = [1, 2, 3, 4, 5]
+survey_dict_q2 = [1, 2, 3, 4, 5]
+survey_dict_q3 = [1, 2, 3, 4, 5, 6, 7]
+
+result_q1 = check_survey_data(survey_dict_q1, q1)
