@@ -39,3 +39,15 @@ survey_dict_q2 = [1, 2, 3, 4, 5]
 survey_dict_q3 = [1, 2, 3, 4, 5, 6, 7]
 
 result_q1 = check_survey_data(survey_dict_q1, q1)
+result_q2 = check_survey_data(survey_dict_q2, q2)
+result_q3 = check_survey_data(survey_dict_q3, q3)
+
+q1_mean = q1.mean()
+q2_mean = q2.mean()
+q3_mean = q3.mean()
+
+print('問1 集計結果: ' , result_q1 , ', 平均値' , q1_mean)
+print('問2 集計結果: ' , result_q2 , ', 平均値' , q2_mean)
+print('問3 集計結果: ' , result_q3 , ', 平均値' , q3_mean)
+
+
