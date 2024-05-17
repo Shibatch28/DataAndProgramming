@@ -52,7 +52,7 @@ print('問2 集計結果: ' , result_q2 , ', 平均値' , q2_mean)
 print('問3 集計結果: ' , result_q3 , ', 平均値' , q3_mean)
 
 # フォントをMSゴシックに(日本語化対応)
-plt.rcParams['font.family'] = 'MS Gothic'
+plt.rcParams['font.family'] = 'Hiragino Sans'
 # サブプロットの作成
 fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(10, 5))
 
