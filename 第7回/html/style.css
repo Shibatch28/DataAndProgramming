@@ -1,0 +1,30 @@
+header {
+  padding: 5px;
+  margin: 5px;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+main {
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p.heading {
+  font-weight: bold;
+  display: inline;
+}
+
+.detail {
+  display: inline;
+}
